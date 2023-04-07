@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Ivett (EMBRACE) -->
+<Ficha xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Alej\Desktop\IVETTL~1\FichaUclv.xml">
+	<CI>91071235386</CI>
+	<Fecha_de_Graduacion>2009-07-16</Fecha_de_Graduacion>
+	<Nombre>Adrian Rodriguez Dosina</Nombre>
+	<Facultad>MFC</Facultad>
+	<CatDoc>Ninguno</CatDoc>
+	<TituloA>
+		<Clasificacion>Licenciado</Clasificacion>
+		<Clasificacion>Master</Clasificacion>
+	</TituloA>
+	<GradoC>Ninguno</GradoC>
+	<CantPub>1</CantPub>
+	<tema>La mineria de textos ......</tema>
+</Ficha>

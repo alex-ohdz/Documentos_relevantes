@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Ivett (EMBRACE) -->
+<Ficha xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\5tooo\Sistemas de informacion\CP RESUELTAS\cp1\FichaUclv.xml">
+	<CI>78060117051</CI>
+	<Fecha_de_Graduacion>2002-07-14</Fecha_de_Graduacion>
+	<Nombre>Leticia Arco Garcia</Nombre>
+	<Facultad>MFC</Facultad>
+	<CatDoc>Profesor Titular</CatDoc>
+	<TituloA>
+		<Clasificacion>Licenciado</Clasificacion>
+		<Clasificacion>Master</Clasificacion>
+		<Clasificacion>Especialista</Clasificacion>
+	</TituloA>
+	<GradoC>Doctor en Ciencias especificas</GradoC>
+	<CantPub>15</CantPub>
+	<tema>La mineria de textos ......</tema>
+</Ficha>

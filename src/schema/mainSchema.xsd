@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Ivett (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Ficha">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CI" type="xs:string"/>
+				<xs:element name="Fecha_de_Graduacion" type="xs:date"/>
+				<xs:element name="Nombre" type="xs:string"/>
+				<xs:element name="Facultad" type="xs:string"/>
+				<xs:element name="CatDoc">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Ninguno"/>
+							<xs:enumeration value="Instructor"/>
+							<xs:enumeration value="Asistente"/>
+							<xs:enumeration value="Profesor Auxiliar"/>
+							<xs:enumeration value="Profesor Titular"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="TituloA">
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:element name="Clasificacion">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="Ingeniero"/>
+										<xs:enumeration value="Licenciado"/>
+										<xs:enumeration value="Master"/>
+										<xs:enumeration value="Especialista"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GradoC">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Ninguno"/>
+							<xs:enumeration value="Doctor en Ciencias especificas"/>
+							<xs:enumeration value="Doctor en Ciencias"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CantPub" type="xs:int"/>
+				<xs:element name="tema" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
